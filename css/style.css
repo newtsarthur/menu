@@ -13,8 +13,10 @@ body {
 }
 nav {
     background-color: rgb(14, 13, 13);
+    position: fixed;
     height: 80px;
     width: 100%;
+    z-index: 1;
 }
 label.logo {
     color: white;
@@ -55,6 +57,18 @@ nav ul li a:hover {
 }
 #check {
     display:none;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    top:100px;
+    padding: 30px 0px;
+}
+.textos li {
+    position: relative;
+    text-align: center;
+    top: 80px;
+    padding: 20px 200px;
 }
 @media (max-width: 952px) {
     label.logo{
