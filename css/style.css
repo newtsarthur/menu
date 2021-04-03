@@ -68,7 +68,7 @@ h1 {
     position: relative;
     text-align: center;
     top: 80px;
-    padding: 20px 200px;
+    padding: 20px 10px;
 }
 @media (max-width: 952px) {
     label.logo{
